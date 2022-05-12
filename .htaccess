@@ -1,0 +1,28 @@
+<Files ~ "^\.ht">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</Files>
+
+<Files ~ "^\_">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</Files>
+
+<Files ~ "\.db$">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+
+<Files ~ "\.sql$">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+
+
+ErrorDocument 401 /tournoi7/
+ErrorDocument 403 /tournoi7/
+ErrorDocument 404 /tournoi7/
